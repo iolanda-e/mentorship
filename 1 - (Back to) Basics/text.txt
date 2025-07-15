@@ -1,0 +1,6 @@
+Each method supports optional start and end arguments. These arguments mean
+that the action of the method is restricted to the portion of the target string starting
+with the character at index start and up to but not including the character at index end.
+If start is specified but end isn’t,
+then the method applies to the portion of
+the target string from start through the end of the string.
